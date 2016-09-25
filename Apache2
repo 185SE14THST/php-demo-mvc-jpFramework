@@ -1,4 +1,4 @@
-﻿// Enable modrewrite on virtual hosts
+// Enable modre write on virtual hosts
 <VirtualHost *:80>
         DocumentRoot /var/www/html/xyz
         ServerName xyz.com
