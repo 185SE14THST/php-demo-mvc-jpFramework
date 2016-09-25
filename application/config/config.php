@@ -62,14 +62,4 @@ define('DB_CHARSET', 'utf8');
  *
  */
 include_once 'sessions.php';
-
-/**
- * Company details
- *
- */
-define('MY_COMPANY', 'jpFramework');
-define('MY_ADDRESS', '123 Acme Rd. Los Angeles, CA 90210');
-define('MY_EMAIL', 'support@jpframework.com');
-define('MY_WWW', 'www.jpframework.com');
-
 ?>
