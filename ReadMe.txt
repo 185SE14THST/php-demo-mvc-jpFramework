@@ -1,0 +1,11 @@
+﻿// Enable modrewrite on virtual hosts
+<VirtualHost *:80>
+        DocumentRoot /var/www/html/xyz
+        ServerName xyz.com
+    <Directory /var/www/html/xyz/public>
+        #allow from all
+        Options Indexes FollowSymLinks
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>

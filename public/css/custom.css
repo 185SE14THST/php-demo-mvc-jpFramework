@@ -1,0 +1,8 @@
+﻿#peopleGrid {
+    width: 100%;
+}
+#locationGrid {
+    width: 100%;
+}
+
+.override p.redOrNot { color: blue }
